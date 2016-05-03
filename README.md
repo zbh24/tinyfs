@@ -22,7 +22,9 @@ I wrtie some command in the makefile.And this is the step.
 
 ###Others
 1.The deafult the DISK is DISK1,but it can modify.The params in the params.h(ROOTDEV).
+
 2.I modified from the mit xv6 os,so this code which you can study,and this is also the reason why I put the code in th github,but copytights is belong to mit.
+
 3.If you have any questions,welcome to email to me(zbh24@126.com).
 
 
