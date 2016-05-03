@@ -1,6 +1,6 @@
 # tinyfs
 
-This is a mirco but complete and have POSIX interface like ex3 file system.It is come from the famous mit OS XV6.In 2015,I wanted to formal vertify the file system,so I abstract it from the XV6.This is the process of this project born.I hope you can have a deep understanding after learning this project.
+This is a mirco but complete and have POSIX interface like ex3 file system.It is come from the famous mit OS XV6.In 2015,I wanted to formal vertify the file system,so I abstract it from the XV6.This is the process of this project born.I hope you can have a deep understanding of file system after learning this project.
 
 ###structure
 It has six parts,includes ide.c bio.c,log.c inode.c file.c syscall.c.And it matched the six layers from the low to high.And I use the text file to simulate the DISK.So it can run like a truely file ststem run in the disk.The  layers function like follows:
