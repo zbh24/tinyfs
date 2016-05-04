@@ -3,11 +3,11 @@
 This is a mirco but complete and have POSIX interface like ex3 file system.It is come from the famous mit OS XV6.In 2015,I wanted to formal vertify the file system,so I abstract it from the XV6.This is the process of this project born.I hope you can have a deep understanding of file system after learning this project.
 
 ###Structure
-It has six parts,includes ide.c bio.c,log.c inode.c file.c syscall.c.And it matched the six layers from the low to high.And I use the text file to simulate the DISK.So it can run like a truely file ststem run in the disk.The  layers function like follows:
+It has six parts,includes ide.c bio.c,log.c inode.c file.c syscall.c.And it matched the six layers of file system from the low to high.And I use the text file to simulate the DISK.So it can run like a truely file system run in the disk.The  layers function like follows:
 
-- ide.c:it can operate the disk directly,it is in the lowest int the file system
+- ide.c:it can operate the disk directly,it is in the lowest in the file system
 - bio.c:it is the buffer cache,read or write data in the buffer
-- log.c:it can recover from the damage,so it can record the operate.
+- log.c:it can make the file system recover from the damage,so it can record the operate.
 - inode.c:we know every file has a inode,inlcudes file and directory.
 - file.c:it describe the propetry of the file,include of size,owner and so on.
 - syscall.c:This is the POSIX interface,include sys_read,sys_write,sys_close and so on.
